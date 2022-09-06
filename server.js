@@ -38,7 +38,7 @@ app.get('/', (request, response) => {
 
     if(request.body.message === undefined || request.body.message ===''){
 
-        request.flash('error', "Vous n'avez pas posté de message")
+        request.flash('error', "Vous n'avez pas posté de messages")
 
        
     }
